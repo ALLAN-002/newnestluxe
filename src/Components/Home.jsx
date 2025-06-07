@@ -14,29 +14,29 @@ export default function Home() {
   return (
     <div>
       {/* ----------------------------- Hero Section ----------------------------- */}
-      <section className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden rounded-4xl mb-10">
+      <section className="relative w-full overflow-hidden rounded-4xl mb-10 h-[450px] sm:h-[500px] md:h-[600px] lg:h-[700px]">
         {/* Background image */}
         <img
           src={expressway}
-          alt="Nairobi Expressway skyline"
-          className="absolute inset-0 -z-10 ml-50 mt-10 w-500 h-[500px] md:h-[600px] lg:h-[700px] object-cover rounded-4xl"
+          alt="Nairobi skyline showing the Expressway"
+          className="absolute inset-0 w-full h-full object-cover"
         />
 
         {/* Dark overlay for readability */}
-        <div className="absolute inset-0 -z-10 bg-black/40 ml-50 mt-10 rounded-4xl" />
+        <div className="absolute inset-0 bg-black/40" />
 
         {/* Centered content */}
-        <div className="flex h-full w-full pl-50 items-center justify-center px-4 text-center text-white">
+        <div className="relative flex h-full w-full items-center justify-center px-4 sm:px-6 text-center text-white">
           <div className="max-w-3xl">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold drop-shadow-md">
-              Find Your Dream Home
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold drop-shadow-md leading-tight">
+              Find&nbsp;Your&nbsp;Dream&nbsp;Home
             </h1>
-            <p className="mt-6 text-lg sm:text-xl lg:text-2xl font-medium drop-shadow-md">
-              Discover rentals, plots & hidden gems — all in one place.
+            <p className="mt-6 text-base sm:text-lg lg:text-2xl font-medium drop-shadow-md">
+              Discover rentals, plots &amp; hidden gems — all in one place.
             </p>
             <Link
               to="/services"
-              className="mt-10 inline-block rounded-full bg-[#071524] px-8 py-4 text-base font-semibold transition hover:bg-blue-700 sm:text-lg"
+              className="mt-10 inline-block rounded-full bg-[#071524] px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-semibold transition-colors duration-300 hover:bg-blue-700"
             >
               Browse Listings
             </Link>
@@ -45,8 +45,6 @@ export default function Home() {
       </section>
 
       {/* ----------------------------- Content Sections ----------------------------- */}
-      
-       
       <Section id="about">
         <About />
       </Section>
@@ -82,11 +80,13 @@ export default function Home() {
   );
 }
 
-
-function Section({ id, bg, children }) {
+function Section({ id, bg = "", children }) {
   return (
-    <section id={id} className={`${bg} py-16 px-4 sm:px-6 lg:px-8`}>
-      <div className="container mx-auto w-full">{children}</div>
+    <section
+      id={id}
+      className={`py-16 px-4 sm:px-6 lg:px-8 ${bg}`}
+    >
+      <div className="max-w-7xl mx-auto w-full">{children}</div>
     </section>
   );
 }

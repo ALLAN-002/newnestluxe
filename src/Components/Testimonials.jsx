@@ -52,14 +52,15 @@ export default function TestimonialSection() {
   };
 
   return (
-    <section className="py-12 bg-gray-100 w-full rounded-lg ml-50">
+    <section className="py-12 bg-gray-100 w-full rounded-lg">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row gap-8 rounded-lg">
+        {/* Left controls */}
         <div className="md:w-1/3 flex flex-col gap-6">
           <h1 className="text-3xl md:text-4xl font-semibold">TESTIMONIALS</h1>
           <h2 className="text-3xl md:text-5xl font-bold leading-tight">
             What Other Clients Are Saying
           </h2>
-          <div className="flex gap-4">
+          <div className="flex gap-4 mt-4">
             <button
               onClick={prev}
               aria-label="Previous"
@@ -76,6 +77,8 @@ export default function TestimonialSection() {
             </button>
           </div>
         </div>
+
+        {/* Right testimonial carousel */}
         <div className="md:w-2/3 overflow-hidden">
           <div
             className="flex gap-6 transition-transform duration-500"

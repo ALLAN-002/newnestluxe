@@ -41,22 +41,22 @@ const images = [
 
 const HiddenGems = () => {
   return (
-    <div className="min-h-screen p-6 bg-white ml-50">
+    <div className="min-h-screen px-4 sm:px-6 lg:px-8 py-12 bg-white">
       <div className="max-w-6xl mx-auto">
         <header className="text-center mb-10">
           <h1 className="text-[rgb(27,38,59)] font-extrabold text-3xl sm:text-4xl md:text-5xl mb-4">
             Scenic Wonders
           </h1>
-          <p className="text-[rgb(27,38,59)] text-xl sm:text-2xl md:text-3xl leading-relaxed">
+          <p className="text-[rgb(27,38,59)] text-lg sm:text-xl md:text-2xl leading-relaxed">
             Discover the untold beauty of Kenya beyond the guidebooks,
           </p>
-          <p className="text-[rgb(27,38,59)] text-xl sm:text-2xl md:text-3xl leading-relaxed">
+          <p className="text-[rgb(27,38,59)] text-lg sm:text-xl md:text-2xl leading-relaxed">
             where nature whispers and wonders await
           </p>
         </header>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-2 gap-8">
           {images.map((item) => (
             <div
               key={item.id}
@@ -65,17 +65,17 @@ const HiddenGems = () => {
               <img
                 src={item.src}
                 alt={item.alt}
-                className="w-full h-64 md:h-72 lg:h-80 object-cover rounded-lg mb-4"
+                className="w-full h-60 sm:h-64 md:h-72 lg:h-80 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-[rgb(27,38,59)] text-2xl sm:text-3xl font-semibold mb-2">
+              <h3 className="text-[rgb(27,38,59)] text-xl sm:text-2xl font-semibold mb-2">
                 {item.title}
               </h3>
-              <p className="text-[rgb(27,38,59)] text-lg sm:text-xl mb-4">
+              <p className="text-[rgb(27,38,59)] text-base sm:text-lg mb-4">
                 {item.description}
               </p>
               <Link
                 to="/contact"
-                className="mt-auto inline-block bg-[rgb(27,38,59)] text-white text-lg sm:text-xl px-5 py-2 rounded-lg hover:bg-blue-900 transition font-bold"
+                className="mt-auto inline-block bg-[rgb(27,38,59)] text-white text-base sm:text-lg px-5 py-2 rounded-lg hover:bg-blue-900 transition font-bold"
               >
                 Travel
               </Link>

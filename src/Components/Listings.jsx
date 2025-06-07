@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function Listings() {
   return (
-    <section className="bg-white py-16 px-4 sm:px-6 lg:px-8 ml-70">
+    <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-7xl">
         <h2 className="text-4xl font-bold text-[rgb(27,38,59)] text-center mb-10">
           All Property Listings
