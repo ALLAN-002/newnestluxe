@@ -5,7 +5,7 @@ import landscape from "../assets/landscape.jpeg";
 
 const Services = () => {
   return (
-    <div className="bg-white ml-70 p-6 md:p-10 mx-auto max-w-screen-xl justify-center ">
+    <div className="bg-white ml-50 p-6 md:p-10 mx-auto max-w-screen-xl justify-center ">
       <h1 className="text-3xl md:text-4xl text-[rgb(27,38,59)] font-semibold ml-120">SERVICES</h1>
       
       <p className="text-3xl md:text-5xl font-bold text-[rgb(27,38,59)] leading-tight justify-items-center ml-108 mt-4">

@@ -8,7 +8,7 @@ import finder from "../assets/finder.png";
 
 export default function Partners() {
   return (
-    <div className="bg-gray-100 w-full py-10 px-4 ml-50">
+    <div className="bg-gray-100 max-w-full ml-50">
       <div className="bg-white rounded-lg p-10 max-w-7xl mx-auto mt-10">
         <h1 className="text-3xl font-bold mb-8 text-center">Our Partners</h1>
         <div className="flex flex-wrap justify-center gap-10">
