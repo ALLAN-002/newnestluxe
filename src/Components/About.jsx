@@ -4,7 +4,7 @@ import Mydiv from '../assets/Mydiv.jpg';
 
 export default function About() {
   return (
-    <div className='bg-gray-100 w-full py-16 px-4 sm:px-6 lg:px-8'>
+    <div className='bg-gray-100 w-full py-16 px-4 sm:px-6 lg:px-8 m-15 '>
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 p-6 sm:p-10 max-w-7xl mx-auto bg-white rounded-3xl shadow-lg">
         {/* Text Content */}
         <div className="flex-1 max-w-lg text-center md:text-left">

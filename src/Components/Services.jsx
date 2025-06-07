@@ -5,12 +5,12 @@ import landscape from "../assets/landscape.jpeg";
 
 const Services = () => {
   return (
-    <div className="bg-white p-6 md:p-10 mx-auto max-w-screen-xl">
-      <h1 className="text-3xl md:text-4xl text-[rgb(27,38,59)] font-semibold mb-2">
+    <div className="bg-white p-6 md:p-10 mx-auto max-w-screen-xl ml-15">
+      <h1 className="text-3xl md:text-4xl text-[rgb(27,38,59)] font-semibold mb-2 ml-95">
         SERVICES
       </h1>
       
-      <p className="text-3xl md:text-5xl font-bold text-[rgb(27,38,59)] leading-tight mb-10">
+      <p className="text-3xl md:text-5xl font-bold text-[rgb(27,38,59)] leading-tight mb-10 ml-82">
         Your Path to <br /> Easy Lifestyle
       </p>
       

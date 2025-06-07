@@ -14,7 +14,7 @@ const faqs = [
 
 export default function Quiz() {
   return (
-    <div className="flex flex-col md:flex-row gap-12 p-6 bg-white max-w-7xl mx-auto">
+    <div className="flex flex-col md:flex-row gap-12 p-6 bg-white max-w-7xl mx-auto ml-15">
       {/* Left Section */}
       <div className="md:flex-1">
         <h1 className="text-3xl font-bold mb-2">NEED HELP?</h1>

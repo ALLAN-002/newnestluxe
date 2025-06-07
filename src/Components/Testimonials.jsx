@@ -52,7 +52,7 @@ export default function TestimonialSection() {
   };
 
   return (
-    <section className="py-12 bg-gray-100 w-full rounded-lg">
+    <section className="py-12 bg-gray-100 w-full rounded-lg ml-5">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row gap-8 rounded-lg">
         {/* Left controls */}
         <div className="md:w-1/3 flex flex-col gap-6">

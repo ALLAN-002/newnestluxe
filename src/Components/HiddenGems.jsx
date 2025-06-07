@@ -41,7 +41,7 @@ const images = [
 
 const HiddenGems = () => {
   return (
-    <div className="min-h-screen px-4 sm:px-6 lg:px-8 py-12 bg-white">
+    <div className="min-h-screen px-4 sm:px-6 lg:px-8 py-12 bg-white ml-15">
       <div className="max-w-6xl mx-auto">
         <header className="text-center mb-10">
           <h1 className="text-[rgb(27,38,59)] font-extrabold text-3xl sm:text-4xl md:text-5xl mb-4">
