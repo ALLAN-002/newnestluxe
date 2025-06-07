@@ -8,7 +8,7 @@ const Services = () => {
     <div className="bg-white ml-40 p-6 md:p-10 mx-auto max-w-screen-xl justify-center ">
       <h1 className="text-3xl md:text-4xl text-[rgb(27,38,59)] font-semibold ml-100">SERVICES</h1>
       
-      <p className="text-3xl md:text-5xl font-bold text-[rgb(27,38,59)] leading-tight justify-items-center ml-75 mt-4">
+      <p className="text-3xl md:text-5xl font-bold text-[rgb(27,38,59)] leading-tight justify-items-center ml-78 mt-4">
         Your Path to <br /> Easy Lifestyle
       </p>
       
