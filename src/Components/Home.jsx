@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
       {/* ----------------------------- Hero Section ----------------------------- */}
-      <section className="relative w-full overflow-hidden rounded-4xl mb-10 h-[450px] sm:h-[500px] md:h-[600px] lg:h-[700px]">
+      <section className="relative w-full overflow-hidden rounded-4xl mb-10 h-[450px] sm:h-[500px] md:h-[600px] lg:h-[700px] m-20 mt-10">
         {/* Background image */}
         <img
           src={expressway}
