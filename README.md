@@ -1,12 +1,31 @@
-# React + Vite
+# 🏠 NestLuxe - Smart Housing & Property Listings Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NestLuxe is a responsive web platform built to simplify housing and property searches across Nairobi and Kiambu counties. Whether you're a tenant looking for a new home, a landlord listing a property, or an investor scouting plots, NestLuxe offers a fast, intuitive, and mobile-friendly experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌇 **Property Listings**  
+  Browse properties including apartments, maisonettes, and residential plots. Each listing includes high-quality images, location, and rental/purchase details.
 
-## Expanding the ESLint configuration
+- 🧭 **Search & Explore**  
+  Users can explore listings by location and property type. Landlords can add new listings directly.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 💬 **Testimonials**  
+  Read what tenants, landlords, and community leaders are saying about the platform.
+
+- ❓ **FAQs**  
+  Get answers to common questions about property purchases, rentals, virtual tours, and more.
+
+- 🤝 **Partners**  
+  Showcase of partner brands and service providers in the housing and travel industry.
+
+## 📁 Project Structure
+
+```bash
+src/
+│
+├── assets/             # Images and media (e.g., apartments, logos)
+├── components/         # Reusable UI components (e.g., Navbar, Footer, Cards)
+├── pages/              # Route-based pages (e.g., Home, Listings)
+├── App.jsx             # Main app layout and routing
+└── main.jsx            # Entry point of the React application
